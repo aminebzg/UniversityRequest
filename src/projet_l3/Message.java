@@ -194,7 +194,7 @@ public class Message extends javax.swing.JFrame {
             public void run() {
                 Utilisateur amine=new Utilisateur("bnm1931a", "aminemdp", "BENZERGA", "Amine");
                 Utilisateur gauthier=new Utilisateur("bjg97f", "gauthiermdp", "BOUYJOU", "Gauthier");
-                new Message(amine, "Gros probleme !!! en salle de TP de Java. Venez viiiiite","Dimanche 3 décembre, 14:12", StatutMessage.nonRecuUtilisateurs ).setVisible(true);
+                new Message(amine, "Gros probleme ! en salle de TP de Java. Venez viiiiite","Dimanche 3 décembre, 14:12", StatutMessage.nonRecuUtilisateurs ).setVisible(true);
                 new Message(gauthier, "Bonjour, nous avons bien reçu votre demande. Nous arrivons !!! ","Dimanche 3 décembre, 14:26", StatutMessage.lu ).setVisible(true);
                 new Message(amine, "Merci de votre aide :-)","Dimanche 3 décembre, 14:52", StatutMessage.nonLu ).setVisible(true);
                 new Message(gauthier, "Le plaisir est pour nous ! ","Dimanche 3 décembre, 14:59", StatutMessage.nonRecuServeur ).setVisible(true);
