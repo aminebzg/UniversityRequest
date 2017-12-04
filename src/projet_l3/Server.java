@@ -5,6 +5,7 @@
  */
 package projet_l3;
 
+// erreur package introuvable
 import AppPackage.AnimationClass;
 
 /**
